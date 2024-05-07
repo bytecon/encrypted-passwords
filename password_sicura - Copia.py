@@ -20,7 +20,7 @@ def genera():
     password_cript.config(state="normal")
     password1=str(password.get())
     password_cript1=(hashlib.md5(password1.encode('utf-8')).hexdigest()) # cripta
-    special_characters='!V10' # aggiunge caratteri speciali e maiuscole
+    special_characters='@F45' # aggiunge caratteri speciali e maiuscole
     password_cut=password_cript1[:9] # taglia a 9 caratteri
     password_out=(password_cut + special_characters) # password ottenuta
     password_cript.insert(0, str(password_out)) 
