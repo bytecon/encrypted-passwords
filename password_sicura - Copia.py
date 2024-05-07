@@ -44,7 +44,7 @@ def copia():
 root = Tk()
 root.title('bytecon Password Sicura')
 root.geometry('300x300+400+400')
-root.iconbitmap('D:\Francesco\Pictures\logo1.ico')
+root.iconbitmap('your path icona.ico')
 #root.resizable(False, False)
 
 root.minsize(300, 300)
